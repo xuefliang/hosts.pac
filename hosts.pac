@@ -358,7 +358,7 @@ var whiteList = [
 function FindProxyForURL(url, host){
 	var direct = 'DIRECT;';
 
-	var proxy = '127.0.0.1:80';
+	var proxy = '127.0.0.1:1080';
 	var block = '0.0.0.0:80';
 	
 	if(shExpMatch(host, '10.[0-9]+.[0-9]+.[0-9]+')) return direct;
